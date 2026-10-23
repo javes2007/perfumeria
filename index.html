@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Descubre fragancias para hombre, mujer y unisex en Aroma Luxe. Encuentra el aroma que va contigo.">
+  <meta name="theme-color" content="#211a1c">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg?v=20261020-1">
+  <title>Aroma Luxe | Encuentra tu esencia</title>
+  <link rel="stylesheet" href="estilos.css?v=20261021-3">
+  <script type="importmap">{"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.169.0/build/three.module.js","three/addons/":"https://cdn.jsdelivr.net/npm/three@0.169.0/examples/jsm/"}}</script>
+</head>
+<body>
+<div class="franja-superior">✦ DESCUBRE TU PRÓXIMA FRAGANCIA <span>·</span> AROMA LUXE</div>
+<header class="barra">
+  <a class="logo" href="index.html">✦ Aroma Luxe</a>
+  <nav aria-label="Navegación principal">
+    <a href="index.html" aria-current="page">Inicio</a>
+    <a href="#categorias">Categorías</a>
+    <a href="catalogo.php">Catálogo</a>
+    <a class="nav-carrito" href="carrito.php">🛒 Carrito</a>
+  </nav>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="hero-texto">
+      <p class="etiqueta">El arte de dejar huella</p>
+      <h1>No es solo un aroma.<br><span>Es tu esencia.</span></h1>
+      <p class="sub">Perfumes para cada estilo y ocasión. Encuentra el aroma que va contigo.</p>
+      <div class="hero-botones">
+        <a class="btn" href="catalogo.php">Descubrir perfumes <span aria-hidden="true">↗</span></a>
+        <a class="btn-borde" href="#categorias">Encuentra tu estilo</a>
+      </div>
+      <div class="hero-nota"><span class="hero-nota-icono">✦</span><span>Tu próxima fragancia favorita te está esperando.</span></div>
+    </div>
+    <div class="hero-arte escena-perfumes-3d" data-perfume-3d aria-label="Tres frascos de perfume 3D animados">
+      <canvas aria-label="Escena 3D interactiva de perfumes"></canvas>
+      <div class="respaldo-perfumes" aria-hidden="true"></div>
+    </div>
+    <div class="hero-pie">DESCUBRE · SIENTE · RECUERDA</div>
+  </section>
+
+  <section id="categorias" class="seccion seccion-categorias">
+    <div class="encabezado-seccion"><p class="mini-etiqueta">EXPLORA POR FAMILIA</p><h2>Encuentra tu universo olfativo</h2><p>Empieza por el estilo que más se parece a ti.</p></div>
+    <div class="rejilla-3">
+      <a class="cat cat-hombre" href="catalogo.php?genero=Hombre">
+        <span class="cat-numero">01 / COLECCIÓN</span><span class="cat-icono">♂</span><h3>Para él</h3><p>Notas intensas, amaderadas y frescas para dejar una impresión inolvidable.</p><span class="cat-enlace">Explorar colección <b>↗</b></span>
+      </a>
+      <a class="cat cat-mujer" href="catalogo.php?genero=Mujer">
+        <span class="cat-numero">02 / COLECCIÓN</span><span class="cat-icono">♀</span><h3>Para ella</h3><p>Acordes florales, dulces y sofisticados que celebran tu personalidad.</p><span class="cat-enlace">Explorar colección <b>↗</b></span>
+      </a>
+      <a class="cat cat-unisex" href="catalogo.php?genero=Unisex">
+        <span class="cat-numero">03 / COLECCIÓN</span><span class="cat-icono">✧</span><h3>Unisex</h3><p>Combinaciones versátiles que rompen las reglas y crean las tuyas.</p><span class="cat-enlace">Explorar colección <b>↗</b></span>
+      </a>
+    </div>
+  </section>
+
+  <section class="destacado-breve">
+    <div><p class="mini-etiqueta">AROMA LUXE</p><h2>Tu esencia, tu sello.</h2><p>Encuentra tu favorito y hazlo parte de tu historia.</p></div>
+    <a class="btn" href="catalogo.php">Comprar perfumes ↗</a>
+  </section>
+
+  <section class="cta">
+    <p class="mini-etiqueta">TU PRÓXIMA HISTORIA COMIENZA AQUÍ</p>
+    <h2>Deja que tu aroma hable por ti.</h2>
+    <p>Elige una fragancia que se sienta tan única como tú.</p>
+    <a class="btn" href="catalogo.php">Ver todos los perfumes <span aria-hidden="true">↗</span></a>
+  </section>
+</main>
+
+<footer class="pie pie-nuevo">
+  <a class="logo" href="index.html">✦ Aroma Luxe</a>
+  <div><a href="catalogo.php">Catálogo</a><a href="carrito.php">Carrito</a></div>
+  <small>Aroma Luxe &copy; 2026</small>
+</footer>
+<script type="module" src="perfumes-3d.js?v=20261021-4"></script>
+</body>
+</html>
